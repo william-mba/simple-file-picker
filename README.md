@@ -69,8 +69,6 @@ npm run preview
 
 Open your browser using the link provided by `Vite`.
 
-<br/>
-
-:star2: Any questions, suggestions or ideas ?
+### :star2: Any question or suggestion ?
 
 Please, open an issue or send me a DM 📩
