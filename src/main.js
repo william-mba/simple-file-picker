@@ -1,14 +1,19 @@
 import './style.css';
-import { setupFilePicker } from './filePicker.js';
+import initFilePicker from './filePicker.js';
 
 document.querySelector('#app').innerHTML = `
   <div>
     <h1>File picker</h1>
     <div class="card">
-      <button id="filePickerBtn" type="button"></button>
+      <button id="trigger" type="button">
+      Select files
+      </button>
     </div>
     <div id="output"></div>
   </div>
 `;
 
-setupFilePicker(document.querySelector('#filePickerBtn'));
+initFilePicker({
+  trigger: document.querySelector('#trigger'),
+  output: document.querySelector('#output'),
+});
